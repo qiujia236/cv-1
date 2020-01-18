@@ -9,8 +9,8 @@ let string = `/*你好，我是wb，接下来我要
 #div1 {
   position: fixed;
   border: 1px solid red;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 /*
 接下来我把div变成一个八卦图
@@ -31,8 +31,8 @@ let string = `/*你好，我是wb，接下来我要
 #div1::before{
   content: '';
   display : block;
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   position:absolute;
   top : 0;
   left: 50%;
@@ -45,8 +45,8 @@ let string = `/*你好，我是wb，接下来我要
 #div1::after{
   content: '';
   display : block;
-  width: 125px;
-  height: 125px;  
+  width: 150px;
+  height: 150px;  
   position:absolute;  
   bottom:0;
   left:50%;
@@ -81,7 +81,7 @@ let step = () => {
       n += 1;
       step();
     }
-  }, 50);
+  }, 40);
 };
 
 step();
